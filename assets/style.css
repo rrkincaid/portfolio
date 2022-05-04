@@ -79,6 +79,7 @@ section {
     align-items: flex-start;
     border: solid darkgray;
     width: 15%;
+    border-radius: 20%;
 }
 
 .card {
