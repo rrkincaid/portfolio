@@ -9,7 +9,7 @@ body {
     line-height: 1.5rem;
     background-color: #c0cac0;
     color: rgb(5, 43, 58);
-    background-image: linear-gradient(darkgreen);
+    background-image: -webkit-image-set();
 }
 
 header {
@@ -78,13 +78,12 @@ section {
     design: flex;
     align-items: flex-start;
     border: solid darkgray;
-    width: 15%;
+    width: 20%;
     border-radius: 20%;
 }
 
 .card {
     border-block-style: solid;
-    background-image: linear-gradient rbg(5, 43, 58) blue;
     background-color: rgb(5, 43, 58);
     color: #b9c6ae;
 }
