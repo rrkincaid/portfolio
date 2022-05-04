@@ -1,0 +1,178 @@
+* {
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 1.5rem;
+    background-color: #c0cac0;
+    color: rgb(5, 43, 58);
+    background-image: linear-gradient(darkgreen);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    padding: 4%;
+    background-color: rgb(5, 43, 58);
+    color: #b9c6ae;
+}
+
+h1 {
+    font-size: 200%;
+    font-family: 'Permanent Marker', cursive;
+    margin: 5% 5%;
+    flex-direction: row;
+}
+
+.h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150%;
+}
+
+.h3 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 85%;
+}
+
+.nav {
+    display: flex;
+    initial-value: right;
+    align-content: flex-end;
+    justify-content: space-between;
+    min-width: 200px;
+    color: #b9c6ae;
+    font-size: 125%;
+}
+
+.nav::hover {
+    color: #b9c6ae;
+}
+
+section {
+    flex: 1 1 0;
+    padding-right: 5%;
+}
+
+
+.article-1 {
+    line-height: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.article-2 {
+    design:flex;
+    flex-wrap: wrap;
+
+    line-height: 1.5rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: right;
+}
+
+.rk {
+    design: flex;
+    align-items: flex-start;
+    border: solid darkgray;
+    width: 15%;
+}
+
+.card {
+    border-block-style: solid;
+    background-image: linear-gradient rbg(5, 43, 58) blue;
+    background-color: rgb(5, 43, 58);
+    color: #b9c6ae;
+}
+
+.gallery {
+    text-decoration-color: #b9c6ae;
+}
+
+.gallery::active {
+    color: white;
+    max-width: 5rem;
+}
+
+.past-work {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img1 {
+    border: solid darkgray;
+    display: inline-block;
+    width: 90%;
+}
+
+.img2 {
+    border: solid darkgray;
+    display: inline-block;
+    width: 90%;
+}
+
+.img3 {
+    border: solid darkgray;
+    display: inline-block;
+    width: 90%;
+}
+
+.img4 {
+    border: solid darkgray;
+    display: inline-block;
+    width: 90%;
+}
+
+.card-body {
+    border: dotted;
+    box-shadow: inset;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: rgb(5, 43, 58);
+    color: #fff;
+}
+
+input,
+button {
+    width: 65%;
+    height: auto;
+    margin: 3% 0;
+    padding: 1.5%;
+}
+
+.social-media {
+    text-decoration: none;
+    line-height: 125%;
+}
+
+@media screen and (min-width: 768px) {
+    body, header, main {
+        design:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        line-height: .5rem;
+    }
+
+    section {
+        /*padding-right: 0;*/
+    }
+}
+
+@media screen and (max-width: 968px) {
+
+    body, header, main {
+        design: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        line-height: 50%;
+    }
+}
